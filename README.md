@@ -1,54 +1,105 @@
-# Abdullah Mustafa
+<p align="center">
+  <img src="./assets/profile-header.svg" width="100%" alt="Abdullah Mustafa — Software Engineer. Problem solving, software development, and applied AI." />
+</p>
 
-**Software Engineer** · Cairo, Egypt
+<p align="center">
+  <a href="https://www.linkedin.com/in/soudi26/"><strong>LinkedIn</strong></a>
+  &nbsp; / &nbsp;
+  <a href="#engineering-foundations"><strong>Foundations</strong></a>
+  &nbsp; / &nbsp;
+  <a href="#selected-work"><strong>Projects</strong></a>
+  &nbsp; / &nbsp;
+  <a href="#ai-in-my-workflow"><strong>AI workflow</strong></a>
+</p>
 
-I build web applications, APIs, research tools, and automation. My work spans C#/.NET, TypeScript, Python, and PHP, from collaborative learning platforms to software developed for a postgraduate research experiment.
+I build web applications, APIs, research tools, and automation. My work brings together **software engineering fundamentals**, **practical product development**, and **AI-assisted workflows**.
 
-## Selected projects
+## Engineering foundations
 
-### [E-Learning Platform](https://github.com/Nourhanshaban78/ElearningWebApplication)
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>01 / Problem solving &amp; DSA</h3>
+<p>Breaking problems into clear steps, choosing suitable data structures and algorithms, and reasoning about correctness, time complexity, and memory usage.</p>
+</td>
+<td width="50%" valign="top">
+<h3>02 / Databases</h3>
+<p>Relational data modeling, SQL, and persistent application state. Hands-on project experience with <strong>SQL Server, PostgreSQL, and SQLite</strong>.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>03 / Competitive programming</h3>
+<p><strong>ECPC participant — 2022 &amp; 2023</strong><br/>
+<strong>IEEEXtreme participant</strong></p>
+<p>Applying algorithmic thinking to contest problems under time and memory constraints.</p>
+</td>
+<td width="50%" valign="top">
+<h3>04 / Teaching &amp; communication</h3>
+<p><strong>Instructor at ICPC Minia — 2023</strong></p>
+<p>Making complex ideas easier to understand through clear explanations, step-by-step reasoning, and practical examples.</p>
+</td>
+</tr>
+</table>
 
-A team-built learning platform covering courses, assessments, scheduling, and student interactions.
+## Selected work
 
-**My contribution:** student scheduling APIs for calendars, upcoming events, deadline summaries, and event details. These changes were merged through [pull request #51](https://github.com/Nourhanshaban78/ElearningWebApplication/pull/51).
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Nourhanshaban78/ElearningWebApplication">E-Learning Platform ↗</a></h3>
+<p><strong>Collaborative .NET development</strong></p>
+<p>A team-built learning platform. I contributed student scheduling APIs for calendars, upcoming events, deadlines, and event details, merged in <a href="https://github.com/Nourhanshaban78/ElearningWebApplication/pull/51">PR #51</a>.</p>
+<p><code>C#</code> <code>ASP.NET Core</code> <code>SQL Server</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/AbdullahSoudi/smart-agent-experiment">Smart Agent Experiment ↗</a></h3>
+<p><strong>AI in a research setting</strong></p>
+<p>Built for a postgraduate researcher conducting an experiment with university students. Combines adaptive Arabic AI feedback with code-controlled scenarios, interaction logs, and authenticated researcher reports with CSV exports.</p>
+<p><code>Next.js</code> <code>TypeScript</code> <code>Groq</code> <code>PostgreSQL</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/AbdullahSoudi/ITeacher">ITeacher ↗</a></h3>
+<p><strong>Learning management</strong></p>
+<p>A teacher-focused learning application with student accounts, course enrollment, video lessons, and progress tracking. Includes teacher/student access roles and token-authenticated APIs.</p>
+<p><code>Laravel</code> <code>React</code> <code>SQLite</code> <code>Tailwind CSS</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/AbdullahSoudi/SWE-Jobs">SWE Jobs ↗</a></h3>
+<p><strong>Automation &amp; integrations</strong></p>
+<p>Discovers fresh software jobs and routes Telegram alerts by role. Handles duplicate detection, freshness checks, persistent delivery state, retries, and scheduled execution.</p>
+<p><code>Python</code> <code>SQLite</code> <code>Telegram API</code> <code>GitHub Actions</code></p>
+</td>
+</tr>
+</table>
 
-`C#` `ASP.NET Core Web API` `SQL Server`
+## AI in my workflow
 
-### [Smart Agent Experiment](https://github.com/AbdullahSoudi/smart-agent-experiment)
+**Claude Code · Codex · Cursor**
 
-Research software I developed for a postgraduate researcher conducting an experiment with university students on digital opportunity discovery.
+I use AI coding tools throughout development: exploring codebases, planning changes, implementing features, debugging, refactoring, and writing documentation.
 
-The application evaluates Arabic responses and provides adaptive feedback through an LLM, while application code controls scenario branching. It includes interaction logging, authenticated researcher reporting, and CSV exports for analysis.
+- **Give useful context:** define the problem, constraints, and expected behavior.
+- **Review the work:** examine generated code, architectural choices, and edge cases.
+- **Verify the result:** use relevant tests and debugging checks before shipping.
 
-**Engineering focus:** separating AI evaluation from scenario control, validating model responses, and recording experiment versions to support reproducibility.
+My work also includes **building AI into applications**. In Smart Agent Experiment, the model evaluates responses while application code controls scenario branching, with validation and experiment version tracking.
 
-`Next.js` `TypeScript` `Groq` `PostgreSQL / Neon`
+## Technical toolkit
 
-### [ITeacher](https://github.com/AbdullahSoudi/ITeacher)
+| Area | Technologies |
+| :--- | :--- |
+| Languages | C# · TypeScript · JavaScript · Python · PHP · SQL |
+| Web & APIs | ASP.NET Core · Laravel · Next.js · React |
+| Databases | SQL Server · PostgreSQL / Neon · SQLite |
+| Development tools | Git · GitHub Actions · Claude Code · Codex · Cursor |
+| Integrations | LLM APIs · Telegram API |
 
-A learning management application for an individual teacher, with student accounts, course enrollment, video lessons, and lesson completion tracking.
+---
 
-**Engineering focus:** role-based access for teachers and students, token-authenticated APIs, and a React interface for managing courses and tracking progress.
-
-`PHP` `Laravel` `React` `SQLite` `Tailwind CSS`
-
-### [SWE Jobs](https://github.com/AbdullahSoudi/SWE-Jobs)
-
-A Python application that discovers fresh software jobs and routes Telegram alerts by role.
-
-**Engineering focus:** duplicate detection, freshness checks, persistent delivery state, retry handling, and source monitoring, with scheduled execution through GitHub Actions.
-
-`Python` `SQLite` `Telegram API` `GitHub Actions`
-
-## Technologies
-
-| Area | Tools I use in my projects |
-| --- | --- |
-| Languages | C#, TypeScript, JavaScript, Python, PHP, SQL |
-| Web development | ASP.NET Core, Laravel, Next.js, React |
-| Data | SQL Server, PostgreSQL, SQLite |
-| Integrations and workflow | LLM APIs, Telegram API, Git, GitHub Actions |
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/soudi26/) · [GitHub](https://github.com/AbdullahSoudi)
+<p align="center">
+  <strong>Let's build something useful.</strong><br/>
+  <a href="https://www.linkedin.com/in/soudi26/">Connect on LinkedIn</a> · <a href="https://github.com/AbdullahSoudi?tab=repositories">Explore my repositories</a>
+</p>
